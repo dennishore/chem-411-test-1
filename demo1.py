@@ -5,5 +5,5 @@ while True:
     led.value(1) #Set led turn on 
     sleep_ms(500) 
     led.value(0) #Set led turn off 
-    sleep_ms(100)
+    sleep_ms(50) # I made this faster
 # Amin comment
