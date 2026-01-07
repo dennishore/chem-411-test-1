@@ -1,9 +1,11 @@
-from time import sleep_ms
-from machine import Pin 
-led=Pin(2,Pin.OUT) #create LED object from pin2,Set Pin2 to output 
-while True: 
-    led.value(1) #Set led turn on 
-    sleep_ms(500) 
-    led.value(0) #Set led turn off 
-    sleep_ms(50) # I made this faster
-# Amin comment
+import time, machine
+
+# setup
+led = machine.Pin(2, machine.Pin.OUT)
+button = machine.Pin(13, machine.Pin.IN, machine.Pin.PULL_UP)
+
+while True:
+    led.value(0)
+    time.sleep(0.2)
+    led.value(1)
+    time.sleep(0.5)

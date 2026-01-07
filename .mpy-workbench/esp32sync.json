@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "syncId": "f69b3727-d619-418b-96da-798823edd66b",
+  "root": "/Users/dennis/Nextcloud/teaching/chem411_511/dennis_scratch/chem-411-test-1",
+  "generatedAt": 1767757986271,
+  "files": {
+    "7segment.py": {
+      "size": 303,
+      "mtime": 1767755170898
+    },
+    "README.md": {
+      "size": 35,
+      "mtime": 1767566457003
+    },
+    "demo1.py": {
+      "size": 216,
+      "mtime": 1767757594385
+    },
+    "demo2.py": {
+      "size": 8,
+      "mtime": 1767567556876
+    },
+    "display/.gitignore": {
+      "size": 124,
+      "mtime": 1659930021000
+    },
+    "display/LICENSE": {
+      "size": 1063,
+      "mtime": 1659930021000
+    },
+    "display/README.md": {
+      "size": 2247,
+      "mtime": 1659930021000
+    },
+    "display/max7219.py": {
+      "size": 5777,
+      "mtime": 1659930021000
+    },
+    "display/setup.py": {
+      "size": 634,
+      "mtime": 1659930021000
+    },
+    "display/seven_segment_ascii.py": {
+      "size": 2384,
+      "mtime": 1659930021000
+    }
+  }
+}
